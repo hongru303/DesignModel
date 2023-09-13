@@ -76,7 +76,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <version>${spring-boot.version}</version>
                 <configuration>
-                    <mainClass>com.example.novel.NovelApplication</mainClass>
+                    <mainClass>com.example.design_model.DesignModelApplication</mainClass>
                     <skip>true</skip>
                 </configuration>
                 <executions>
