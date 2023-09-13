@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="javax.annotation">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/IdeaProjects/jsp-servlet-jdbc-mysql-crud-tutorial/lib/javax.annotation.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

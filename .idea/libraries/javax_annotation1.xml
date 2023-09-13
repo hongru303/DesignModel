@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="javax.annotation1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/IdeaProjects/jsp-servlet-jdbc-mysql-crud-tutorial/lib/javax.annotation.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/jsp-servlet-jdbc-mysql-crud-tutorial/lib/javax.ejb.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/jsp-servlet-jdbc-mysql-crud-tutorial/lib/javax.jms.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/jsp-servlet-jdbc-mysql-crud-tutorial/lib/javax.persistence.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/jsp-servlet-jdbc-mysql-crud-tutorial/lib/javax.resource.jar!/" />
+      <root url="jar://$USER_HOME$/IdeaProjects/jsp-servlet-jdbc-mysql-crud-tutorial/lib/javax.transaction.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
