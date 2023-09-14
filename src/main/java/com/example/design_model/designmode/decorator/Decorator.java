@@ -5,7 +5,7 @@ package com.example.design_model.designmode.decorator;
  */
 public class Decorator implements Sourceable{
 
-    private Source source;
+    private Source source;//原类
     public Decorator(Source source){//构造方法把原类传进来给私有变量 source
         super();
         this.source = source;//将 source 赋给 Dec类的私有变量

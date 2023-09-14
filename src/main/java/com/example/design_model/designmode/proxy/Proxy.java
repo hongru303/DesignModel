@@ -10,6 +10,7 @@ import java.util.Map;
 
 Hr 和  代理  同时继承公司的接口
 比如  公司Company找人不需要直接做， 而是交给猎头公司HR做
+而HR就是代理类
  */
 
 //定义一个代理类继承公司的接口，实现公司接口中的findWorker方法
@@ -28,6 +29,7 @@ public class Proxy implements Company {
         String worker = getWorker(title);//   2 ，从代理类中返回worker
 //        Logger.getLogger("find a work by proxy, work name is  : "  + worker);
         System.out.println("Proxy    ---    find a work by proxy, work name is  : " + worker);
+        System.out.println(this.getClass().toString());
     }
 
     private String getWorker(String title) {
@@ -43,7 +45,7 @@ public class Proxy implements Company {
     }
 
     public static void main(String[] args) {
-        Company company = new Proxy();
+        Company company = new Proxy();//new 一个代理类，代理类中让hr来处理
         company.findWorker("python");
     }
 

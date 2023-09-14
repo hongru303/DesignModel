@@ -2,6 +2,7 @@ package com.example.design_model.designmode.adapter;
 
 /*
 对象适配器模式：直接把要继承的类当作参数传进来类里面
+在适配的类上添加了一个方法
  */
 
 public class ObjectAdapter implements Targetable{
@@ -13,7 +14,7 @@ public class ObjectAdapter implements Targetable{
 
     @Override
     public void read() {
-        System.out.println("Obj   read");//原类里面没有的方法，所以补上
+        System.out.println("Obj   read");//sou原类里面没有的方法，所以补上
     }
 
     @Override

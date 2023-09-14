@@ -7,7 +7,7 @@ public class Hr implements Company{
     @Override
     public void findWorker(String title) {
 //        logger.info("i need find a work, title is :  " + title);
-        System.out.println("Hr   ---     i need find a work, work name is  : "  + title);
+        System.out.println("Hr   ---     i need find a work, work name is  : "  + title + this.getClass().toString());
 
     }
 }
